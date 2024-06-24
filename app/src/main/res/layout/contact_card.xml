@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/custom_edittext">
+
+    <!-- Appointment Title -->
+    <TextView
+        android:id="@+id/contactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phoneNumer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0911879142"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/callbutton"
+            android:layout_width="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:textColor="@android:color/white"
+            android:layout_weight="0.3"/>
+        <Button
+            android:id="@+id/contactEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:background="@drawable/custom_btn"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.3"
+            android:layout_marginLeft="8dp"/>
+
+        <Button
+            android:id="@+id/contactDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:background = "@drawable/custom_btn"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="0.3"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

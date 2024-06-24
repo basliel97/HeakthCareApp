@@ -1,0 +1,58 @@
+<!-- wellness_challenge_card.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/custom_edittext">
+
+    <!-- Challenge Image -->
+
+    <!-- Challenge Title -->
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30-Day Fitness Challenge"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/imageViewChallenge"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Challenge Duration -->
+    <TextView
+        android:id="@+id/textViewDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration: 30 days"
+        android:textSize="16sp"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_toEndOf="@+id/imageViewChallenge"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Challenge Description -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join our 30-day fitness challenge and improve your physical well-being! This challenge includes daily workouts and healthy lifestyle tips to help you reach your fitness goals."
+        android:layout_below="@+id/textViewDuration"
+        android:layout_toEndOf="@+id/imageViewChallenge"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Join Button -->
+    <Button
+        android:id="@+id/buttonJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Challenge"
+        android:layout_below="@+id/textViewDescription"
+        android:layout_toEndOf="@+id/imageViewChallenge"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:background="@drawable/custom_btn"/>
+
+</RelativeLayout>

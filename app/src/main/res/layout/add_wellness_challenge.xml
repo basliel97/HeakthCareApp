@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/homebkg">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bakg"
+            android:padding="10dp">
+
+            <!-- Challenge Title Input -->
+            <EditText
+                android:id="@+id/editTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Challenge Title"
+                android:inputType="text"
+                android:padding="12dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Challenge Duration Input -->
+            <EditText
+                android:id="@+id/editTextDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Duration (e.g., 30 days)"
+                android:inputType="text"
+                android:padding="12dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Challenge Description Input -->
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:padding="12dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Participants Input (Optional) -->
+
+
+            <!-- Add Challenge Button -->
+            <Button
+                android:id="@+id/buttonAddChallenge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Challenge"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_btn"
+                android:padding="12dp"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/editTextParticipants"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

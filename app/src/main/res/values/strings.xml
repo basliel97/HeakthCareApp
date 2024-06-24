@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HealthCareApp</string>
+
+    <string-array name="health_tips">
+        <item>Stay hydrated and exercise regularly.</item>
+        <item>Eat a balanced diet rich in fruits and vegetables.</item>
+        <item>Get at least 8 hours of sleep each night.</item>
+        <item>Practice mindfulness and meditation to reduce stress.</item>
+        <item>Avoid smoking and limit alcohol consumption.</item>
+    </string-array>
+
+    <string-array name="user_names">
+        <item>John Doe</item>
+        <item>Jane Smith</item>
+        <item>Mike Johnson</item>
+        <item>Emily Davis</item>
+        <item>Sarah Wilson</item>
+    </string-array>
+
+    <string-array name="tip_dates">
+        <item>Posted on: June 11, 2024</item>
+        <item>Posted on: June 12, 2024</item>
+        <item>Posted on: June 13, 2024</item>
+        <item>Posted on: June 14, 2024</item>
+        <item>Posted on: June 15, 2024</item>
+    </string-array>
+    <string name="channel_name">Appointment Notifications</string>
+    <string name="channel_description">Notifications for appointment bookings</string>
+
+
+</resources>

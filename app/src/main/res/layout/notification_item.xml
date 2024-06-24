@@ -1,0 +1,46 @@
+<!-- wellness_challenge_card.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/custom_edittext">
+
+    <!-- Challenge Image -->
+
+    <!-- Challenge Title -->
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/imageViewChallenge"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Challenge Duration -->
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textSize="16sp"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_toEndOf="@+id/imageViewChallenge"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Challenge Description -->
+    <TextView
+        android:id="@+id/textViewTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Stamp"
+        android:layout_below="@+id/textViewMessage"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Join Button -->
+
+</RelativeLayout>
